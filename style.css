@@ -1,0 +1,215 @@
+/* Common tags, page & main */
+html {
+    scroll-behavior: smooth; 
+  }
+
+.page {
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #f7e6e4;
+    font-family: 'Chivo Mono', monospace, Arial, Helvetica, sans-serif;
+}
+
+.main {
+    font-size: 25px;
+    background-color: #fff;
+    margin-top: 0;
+}
+
+.title {
+    color: #900C3F;
+    width: fit-content;
+    padding: 10px;
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    text-shadow: 0px 8px 5px rgb(207, 132, 162);
+}
+
+.title:hover {
+    opacity: .8;
+}
+
+.icon {
+    width: 40px;
+    margin: auto;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.accent {
+    font-weight: 700;
+}
+
+p {
+    text-align: center;
+    margin: 20px auto 0;
+    padding-bottom: 10px;
+}
+
+/* Header */
+
+.header {
+    background: linear-gradient(to bottom right, #900C3F, pink);
+    border-radius: 20px 20px 0 0;
+    padding: 0;  
+}
+
+.header__menu {
+    font-size: 30px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.header__menu-link {
+    flex-direction: row;
+    font-weight: 700;
+    text-decoration: none;
+    color: #f7e6e4;
+    transition: opacity 0.5s ease-in;
+    margin: 10px 25px;
+}
+
+.header__menu-link:hover {
+    text-decoration: none;
+    opacity: 0.5;
+    cursor: pointer;
+    text-decoration: #900C3F underline;
+}
+
+.header__title {
+    font-size: 50px;
+    color: #f7e6e4;
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 0px 8px 5px rgba(144, 12, 63, 1);
+}
+
+.header__container {
+    display: flex;
+    margin: 50px;
+    border: 1px solid red;
+}
+
+.header__pic {
+    display: block;
+    margin: 75px auto;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid #900C3F;
+}
+
+.header__contacts {
+    width: 500px;
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header__contacts-link:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+.header h2:first-of-type {
+    color: #f7e6e4;
+    text-shadow: 0px 8px 5px rgba(144, 12, 63, 1);
+} 
+
+/* Skils */
+
+.skills__list{
+display: flex;
+justify-content: center;
+padding: 0;
+gap: 50px;
+}
+
+.skills__icon {
+    width: 100px;
+    height: 100px;
+}
+
+/* Code */
+
+pre {
+    width: fit-content;
+    background: lightgray;
+    margin: 50px auto;
+}
+
+/* Languages - I speak */
+
+.languages__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 250px 0;
+    padding-bottom: 10px;
+}
+
+/* Education */
+
+.education__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 250px;
+    padding: 0;
+}
+
+/* Experience */
+
+.experience__list {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    padding: 0;
+}
+
+.experience__project {
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.experience__project:hover {
+    opacity: .5;
+    
+    }
+
+/* Footer */
+
+.footer {
+    background: linear-gradient(to top left, #900C3F, pink);
+    border-radius: 0 0 20px 20px;
+
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 50px 0 50px;
+    margin: 0;
+}
+
+.footer__copyright {
+    font-size: 20px;
+    padding: 0 50px 50px 0;
+    text-align: right;
+    margin: 20px 0 0 0;
+}
+
+.footer__link {
+    width: 200px;
+}
